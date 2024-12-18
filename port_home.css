@@ -18,8 +18,16 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: rgb(232, 26, 26);
+    background-color: #001540;
     font-family: "Roboto Slab", serif;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    background-position: center;
+    background-color: #f8d6c5;
+    background-size: cover;
 }
 
 .heading{
@@ -49,9 +57,13 @@ nav{
 }
 
 .nav-links a:hover:not(.active){
-    background-color: rgb(167, 13, 13);
+    background-color: #161760;
 }
 
 .nav-links li a.active {
-    background-color: rgb(178, 32, 32);  
+    background-color: #161773;
+    -webkit-box-shadow: inset 0px 0px 5px #0d012c;
+        -moz-box-shadow: inset 0px 0px 5px #0d012c;
+             box-shadow: inset 0px 0px 5px #0d012c;
+    outline: none;  
 }
